@@ -48,6 +48,7 @@ section {
 }
 
 .categories {
+  
     h2 {
         font-family: var(--font-family-1);
         font-weight: 600;
@@ -109,22 +110,23 @@ section {
 }
 
 .courses {
-    h2 {
-        font-family: var(--font-family-1);
-        font-weight: 600;
-        font-size: 32px;
-        line-height: 120%;
-        text-transform: capitalize;
-        color: rgba(0, 0, 0, 1);
-    }
 
-    p {
-        font-family: var(--font-family-2);
-        font-weight: 400;
-        font-size: 18px;
-        /* line-height: 150%; */
-        color: rgba(85, 85, 85, 1);
-    }
+        h2 {
+            font-family: var(--font-family-1);
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 120%;
+            text-transform: capitalize;
+            color: rgba(0, 0, 0, 1);
+        }
+    
+        p {
+            font-family: var(--font-family-2);
+            font-weight: 400;
+            font-size: 18px;
+            /* line-height: 150%; */
+            color: rgba(85, 85, 85, 1);
+        }
 
     .card-container {
         .card {
@@ -352,7 +354,9 @@ section {
     }
 
     .categories {
-
+        .categories-text { 
+            text-align: center;
+          }
         .card-container {
             gap: 31px;
 
@@ -373,6 +377,10 @@ section {
     }
 
     .courses {
+        .courses-text {  
+            text-align: center;
+         }
+
         .card-container {
             .card {
                 width: 320px;
